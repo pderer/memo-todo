@@ -1,3 +1,2 @@
-toDoList by React and Typescript
+memo-todo by react and node
 
-https://pderer.github.io/toDoListByReact
