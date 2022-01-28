@@ -13,9 +13,10 @@ export default function TodoInsert({ onInsert }: TodoInsertProps) {
   }, []);
   const onSubmit = useCallback(
     (e) => {
-      onInsert(value);
-      setValue("");
       e.preventDefault();
+      onInsert(value);
+
+      setValue("");
     },
     [onInsert, value]
   );

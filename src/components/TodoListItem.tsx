@@ -44,7 +44,6 @@ const Text = styled.div``;
 
 export default function TodoListItem({
   todo,
-  key,
   onRemove,
   onToggle,
 }: TodoListItemProps) {
